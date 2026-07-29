@@ -162,7 +162,7 @@ function updateCountdown() {
         countdown.innerHTML = `
             <div class="countdown-box days-only">
                 <span>0</span>
-                <small>Dagar kvar</small>
+                <small>Roj mane</small>
             </div>
         `;
 
@@ -176,7 +176,7 @@ function updateCountdown() {
     countdown.innerHTML = `
         <div class="countdown-box days-only">
             <span>${days}</span>
-            <small>Dagar kvar</small>
+            <small>Roj mane</small>
         </div>
     `;
 }
